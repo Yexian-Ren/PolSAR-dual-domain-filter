@@ -1,4 +1,4 @@
-# PolSAR-dual-domain-filter
+# SIRV-based PolSAR dual-domain-filter
 
 ## This is a simple Matlab implementation demo of PolSAR dual-domain filter.
 
