@@ -1,18 +1,18 @@
 # PolSAR-dual-domain-filter
-SIRV-Based High-Resolution PolSAR Image Speckle Suppression via Dual-Domain Filtering
-#This is a simple Matlab implementation demo of PolSAR dual-domain filter.
 
-The high-resolution PolSAR image is regarded as the result of amplitude modulation of the fast-changing Gaussian random speckle (contains polarization information) by the slow-changing texture (RCS) in the SIRV model. Based on this simple viewpoint, a dual-domain filter is designed, which takes full advantage of the SIRV model to decompose the task of PolSAR speckle suppression into polarimetric domain filtering and texture domain filtering. More details can be referred to the paper 
+## This is a simple Matlab implementation demo of PolSAR dual-domain filter.
+
+* The high-resolution PolSAR image is regarded as the result of amplitude modulation of the fast-changing Gaussian random speckle (contains polarization information) by the slow-changing texture (RCS) in the SIRV model. Based on this simple viewpoint, a dual-domain filter is designed, which takes full advantage of the SIRV model to decompose the task of PolSAR speckle suppression into polarimetric domain filtering and texture domain filtering. More details can be referred to the paper 
 Ren et al. "SIRV-Based High-Resolution PolSAR Image Speckle Suppression via Dual-Domain Filtering" ,IEEE Trans. Geosci. Remote Sens. 
 
-#The PolSAR dual-domain filter is designed and programmed by Yexian Ren. 
+* The PolSAR dual-domain filter is designed and programmed by Yexian Ren. 
 If you have any questions about the algorithm and experimental details, please contact Yexian Ren at  renyexian@foxmail.com.
 
 ---------------------------------------------
 Copyright (c) 2018 Yexian Ren
 ---------------------------------------------
 
-#Remarks
+## Remarks
 1. The basis of the dual-domain filter is the SIRV model and PWF. The SIRV model is used to model the PolSAR data and the PWF is the key connection between the polarimetric domain filtering and the texture domain filtering. The dual-domain filter may fail when SIRV model and PWF are physically invalid.
 
 2. The excellent SAR-POTDF method in single-channel SAR despeckling is applied for texture domain filtering. More details can be referred to the paper 
@@ -26,9 +26,9 @@ Readers are also encouraged to use some more recent single-channel SAR despeckli
 Thank you for your reading！
 
 Yexian Ren
-Email: renyexian@foxmail.com
-QQ: 2538715345
-WeChat: Ren_YeXian
+Email: renyexian@foxmail.com\<br>
+QQ: 2538715345\<br>
+WeChat: Ren_YeXian\<br>
 
 2019-3-29
 
