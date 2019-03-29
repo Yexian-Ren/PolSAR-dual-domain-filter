@@ -25,10 +25,10 @@ Readers are also encouraged to use some more recent single-channel SAR despeckli
 
 Thank you for your reading！
 
-Yexian Ren
-Email: renyexian@foxmail.com\<br>
-QQ: 2538715345\<br>
-WeChat: Ren_YeXian\<br>
+Yexian Ren  
+Email: renyexian@foxmail.com  
+QQ: 2538715345  
+WeChat: Ren_YeXian  
 
 2019-3-29
 
