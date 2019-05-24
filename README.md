@@ -27,7 +27,7 @@ Thank you for your reading！
 Yexian Ren  
 Email: renyexian@foxmail.com  
 QQ: 2538715345  
-WeChat: Ren_YeXian  
+
 
 2019-3-29
 
