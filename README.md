@@ -2,7 +2,7 @@
 
 ## This is a simple Matlab implementation demo of PolSAR dual-domain filter.
 
-* The high-resolution PolSAR image is regarded as the result of amplitude modulation of the fast-changing Gaussian random speckle (contains polarization information) by the slow-changing texture (RCS) in the SIRV model. Based on this simple viewpoint, a dual-domain filter is designed, which takes full advantage of the SIRV model to decompose the task of PolSAR speckle suppression into polarimetric domain filtering and texture domain filtering. More details can be referred to the paper:
+* The high-resolution PolSAR image is regarded as the result of amplitude modulation of the fast-changing Gaussian random speckle (contains polarization information) by the slow-changing texture (RCS) in the SIRV model. Based on this simple but effective viewpoint, a dual-domain filter is designed, which takes full advantage of the SIRV model to decompose the task of PolSAR speckle suppression into polarimetric domain filtering and texture domain filtering. More details can be referred to the paper:
 **Ren et al."SIRV-Based High-Resolution PolSAR Image Speckle Suppression via Dual-Domain Filtering" ,IEEE Trans. Geosci. Remote Sens.**（https://ieeexplore.ieee.org/document/8675755）
 
 * __The PolSAR dual-domain filter is designed and programmed by Yexian Ren. If you have any questions about the algorithm and experimental details, please contact Yexian Ren at  renyexian@foxmail.com.__
