@@ -14,11 +14,8 @@ Copyright (c) 2018 Yexian Ren
 ## Remarks
 1. The basis of the dual-domain filter is the SIRV model and PWF. The SIRV model is used to model the PolSAR data and the PWF is the key connection between the polarimetric domain filtering and the texture domain filtering. **The dual-domain filter may fail when SIRV model and PWF are physically invalid.**
 
-2. Some strong point targets are not filtered in the polarimetric domain filtering program (their normalized coherency matries remain a single-look coherency matrix), because they do not have the randomness of speckle in reality. However, in some subsequent application algorithms, singular matrices may cause miscalculation (such as inversion (A ^ - 1) and log-determinant (log(det (A))).
-
-**The solution is to force at least four pixel samples to participate in the estimation of the normalized coherency matrix.**
-
-**Specific approach: NL_SIRV.m,line 82: Change "index = ind (1);" to "index = ind (1:4);".**
+2. For single-look PolSAR images without multilook, some strong point targets are not filtered in the polarimetric domain filtering program (their normalized coherency matries remain a single-look coherency matrix), because they do not have the randomness of speckle in reality. However, in some subsequent application algorithms, singular matrices may cause miscalculation (such as inversion (A <sup>- 1) and log-determinant (log(det (A))).
+**The solution is to force at least four pixel samples to participate in the estimation of the normalized coherency matrix. Specific approach: NL_SIRV.m,line 82: Change "index = ind (1);" to "index = ind (1:4);".**
 
 3. The excellent SAR-POTDF method in single-channel SAR despeckling is applied for texture domain filtering. More details can be referred to the paper   
 **B. Xu et al. "Patch Ordering based SAR Image Despeckling via Transform-Domain Filtering" IEEE J. Sel. Topics Appl. Earth Observ. Remote Sens., vol. 8, no. 4, pp. 1682–1695, Apr. 2015.**  
