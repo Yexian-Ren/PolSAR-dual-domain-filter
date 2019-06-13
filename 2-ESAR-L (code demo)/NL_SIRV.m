@@ -79,7 +79,7 @@ if length(index)<3
 
 [d2,ind] = sort(d);
 
-index = ind(1);
+index = ind(1); % index=ind(1:4); %force the estimated coherency matrix to be full rank
 
 end
 
