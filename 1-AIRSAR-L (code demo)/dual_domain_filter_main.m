@@ -21,9 +21,10 @@ imwrite(z,'T3mat.tif','tiff','Resolution',300);
 r = 7;%fixed
 
 % Please select some representative areas to calculate the cut-off threshold
-% x and y are the top left corner locations of the selected non-texture regions
+% x and y are the top left corner locations of the selected non-textured homogeneous regions
+% and then a 15*15 window is opened to calculate the cut-off threshold.
 x=[34,73,44,104]';
-y=[195,40,260,47]';
+y=[195,40,260,47]';%Input coordinates of non-textured homogeneous regions
 alpha = 0.6;%fixed
 
 % Parameter for SAR-POTDF
@@ -34,7 +35,7 @@ if look == 1
     L = 2.75;%fixed
 elseif look == 4
     L = 7.5;
-    %It may need to be adjusted according to the real multi-look SAR data because of oversampling
+    %It may need to be adjusted according to the real multi-look SAR data
 end
 
 %% -----initial estimation------
